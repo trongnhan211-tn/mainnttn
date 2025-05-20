@@ -358,7 +358,7 @@ spawn(function()
 	wait(1);
 	((require(game.ReplicatedStorage.Notification)).new("<Color=Purple>[ Welcome " .. game.Players.LocalPlayer.DisplayName .. " ]<Color=/>")):Display();
 	wait(1);
-	((require(game.ReplicatedStorage.Notification)).new("<Color=Yellow>[ Tuấn Anh IOS Chào Tất Cả Chúng Mày ]<Color=/>")):Display();
+	((require(game.ReplicatedStorage.Notification)).new("<Color=Yellow>[ nttn]<Color=/>")):Display();
 end);
 function CheckQuest()
 	MyLevel = (game:GetService("Players")).LocalPlayer.Data.Level.Value;
