@@ -8,7 +8,7 @@ end;
 print("--------------------------------------------------------------------------");
 local Update = (loadstring(Game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/GiaoDien/refs/heads/main/UITuanAnhIOS.lua")))();
 local Library = Update:Window({
-	SubTitle = "    discord.gg/kK2vMrUsQy",
+	SubTitle = "nttn",
 	Size = UDim2.new(0, 470, 0, 320),
 	TabWidth = 140
 });
@@ -7016,7 +7016,7 @@ if World3 then
 	local CommF = (game:GetService("ReplicatedStorage")).Remotes.CommF_;
 	function GuitarPuzzleProgress()
 		if not CommF:InvokeServer("GuitarPuzzleProgress", "Check") then
-			if game.Lighting.Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149431" and (game.Lighting.ClockTime > 16 or game.Lighting.ClockTime < 5) then
+			if game.Lighting.Sky.MoonTextureId == "http://www.roblox.com/asset/?id=84041834478599" and (game.Lighting.ClockTime > 16 or game.Lighting.ClockTime < 5) then
 				if (game:GetService("Players")).LocalPlayer:DistanceFromCharacter(Vector3.new(-8654.314453125, 140.9499053955078, 6167.5283203125)) > 50 then
 					topos(CFrame.new(-8654.314453125, 140.9499053955078, 6167.5283203125));
 				end;
@@ -11788,15 +11788,15 @@ ServTab:Seperator("Server");
 task.spawn(function()
 	while task.wait() do
 		pcall(function()
-			if (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149431" then
+			if (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=84041834478599" then
 				FM:Set("🌕 Full Moon 100%");
-			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149052" then
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=84041834478599" then
 				FM:Set("🌖 Full Moon 75%");
-			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709143733" then
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=84041834478599" then
 				FM:Set("🌗 Full Moon 50%");
-			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709150401" then
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=84041834478599" then
 				FM:Set("🌘 Full Moon 25%");
-			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149680" then
+			elseif (game:GetService("Lighting")).Sky.MoonTextureId == "http://www.roblox.com/asset/?id=84041834478599" then
 				FM:Set("🌘 Full Moon 15%");
 			else
 				FM:Set("🌑 Full Moon 0%");
