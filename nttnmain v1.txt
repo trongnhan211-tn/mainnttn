@@ -1,8 +1,8 @@
 print("Break");
 local v0 = require(game:GetService("ReplicatedStorage").Notification);
-v0.new("<Color=Cyan>Lồn<Color=/>"):Display();
+v0.new("<Color=Cyan>xin chào mn<Color=/>"):Display();
 wait(0.5);
-v0.new("<Color=Yellow>Hài Dón<Color=/>"):Display();
+v0.new("<Color=Yellow>chơi game vv<Color=/>"):Display();
 wait(1);
 repeat
 	wait();
@@ -3032,7 +3032,7 @@ local v79 = v66:T("Tab Miscellaneous", "rbxassetid://10709782582");
 v67:Seperator("Join Discord");
 v67:Label("Everyone Goes Into Socialize");
 v67:Button("Copy Discord Link", function()
-	setclipboard("https://https://discord.gg/gRn2S6m4YS");
+	setclipboard("https://discord.gg/4m6bm6Yy");
 end);
 v67:Seperator("Time");
 Time = v67:Label("Executer Time");
